@@ -25,6 +25,9 @@ body{
     text-align: center;
 }
 
+.error {
+    color:#dd1b1b;
+}
 
 form{
     display:flex;

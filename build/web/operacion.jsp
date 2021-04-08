@@ -47,7 +47,7 @@
             %>
             <div class="card">
                 <p class="question">¿Quieres calcular el perímetro y área de un triángulo?</p>
-                <form action="controller" method="post">
+                <form action="controller/calc" method="post">
                     <input class="text-box" name="base" type="text" placeholder="Escribe la base">
                     <input class="text-box" name="altura" type="text" placeholder="Escribe la altura">
                     <input class="btn" type="submit" name="btnCalcular" value="Calcular">

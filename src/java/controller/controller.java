@@ -20,7 +20,7 @@ import model.Triangulo;
  *
  * @author jesgu
  */
-@WebServlet(name = "controller", urlPatterns = {"/controller"})
+@WebServlet(name = "controller", urlPatterns = {"/controller", "/controller/calc"})
 public class controller extends HttpServlet {
 
     /**
